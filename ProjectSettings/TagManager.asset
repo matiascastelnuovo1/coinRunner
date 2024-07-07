@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CinemachineTarget
+  - Floor
+  - CoinCounter
+  - Coin
+  - CentralFloor
+  - Timer
+  - FreezeTime
+  - PowerJump
+  - SuperSpeed
+  - Portal
+  - TeleportPosition
+  - fpsContainer
+  - Box
+  - TempFloor1
+  - TempFloor2
+  - Lava
+  - Yett1
+  - Yett2
+  - CoinSpawner
+  - ScenesManager
+  - imgFadeIn
+  - TutorialImg
+  - AudioManager
+  - OST
+  - PowerUpSound
+  - LoadingScreen
+  - CoinSound
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
