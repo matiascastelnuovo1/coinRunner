@@ -31,6 +31,8 @@ TagManager:
   - PowerUpSound
   - LoadingScreen
   - CoinSound
+  - SettingsMenu
+  - MainMenu
   layers:
   - Default
   - TransparentFX

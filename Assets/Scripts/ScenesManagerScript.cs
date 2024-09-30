@@ -8,6 +8,16 @@ public class ScenesManager : MonoBehaviour
 {
 
     [SerializeField] private GameObject loadingScreen;
+    [SerializeField] private GameObject MainMenu;
+    [SerializeField] private GameObject SettingsMenu;
+
+
+    void Start()
+    {
+        if (loadingScreen) loadingScreen.SetActive(false);
+        if (MainMenu) MainMenu.SetActive(true);
+        if (SettingsMenu) SettingsMenu.SetActive(false);
+    }
 
     void Update()
     {
@@ -37,6 +47,12 @@ public class ScenesManager : MonoBehaviour
     }
 
     public void PlayGame()
+    {
+        if (loadingScreen) loadingScreen.SetActive(true);
+        SceneManager.LoadSceneAsync(1);
+    }
+
+    public void ShowSettings()
     {
         if (loadingScreen) loadingScreen.SetActive(true);
         SceneManager.LoadSceneAsync(1);
